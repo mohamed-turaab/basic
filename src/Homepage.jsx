@@ -1,18 +1,14 @@
-import React from "react";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import About from "./components/About";
 
-
- const Homepage = () => {
+const Homepage = () => {
   return (
-    <>
+    
+    <div className="w-full min-h-screen bg-[#fdfaf1]">
       <Header />
-      <Hero />
-      <About />
-      <Footer />
-    </>
+      
+      
+    </div>
   );
 };
+
 export default Homepage;

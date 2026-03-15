@@ -1,16 +1,9 @@
-import React from "react";
 import Homepage from "./Homepage";
-import ContactPage from "./ContactPage";
-import "./app.css";
 
-
- const App = () => {
+function App() {
   return (
-    <>
-    <Homepage/>
-    <ContactPage/>
-    </>
+    <Homepage />
   );
-};
-export default App;
+}
 
+export default App;
