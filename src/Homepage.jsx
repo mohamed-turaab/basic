@@ -1,14 +1,11 @@
-import Header from "./components/Header";
-
-const Homepage = () => {
+function Homepage() {
   return (
-    
-    <div className="w-full min-h-screen bg-[#fdfaf1]">
-      <Header />
-      
-      
+    <div className="min-h-screen bg-white flex items-center justify-center">
+      <h1 className="text-6xl font-bold text-black">
+        
+      </h1>
     </div>
   );
-};
+}
 
 export default Homepage;

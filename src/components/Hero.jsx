@@ -8,7 +8,7 @@ const Hero = () => {
         
       </p>
       <button className="mt-10 bg-zinc-900 text-white px-12 py-4 rounded-full font-bold text-xl hover:bg-zinc-700 transition">
-        Bilow Hadda
+        
       </button>
     </div>
   );

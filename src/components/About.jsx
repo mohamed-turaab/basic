@@ -1,9 +1,11 @@
-import React from 'react';
-
-const About = () => {
+function About() {
   return (
-    <div>About</div>
+    <div className="min-h-screen bg-white flex items-center justify-center">
+      <h1 className="text-6xl font-bold text-black">
+        About Page
+      </h1>
+    </div>
   );
-};
+}
 
 export default About;

@@ -1,16 +1,11 @@
-import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Contact from './components/Contact'; 
-
-const ContactPage = () => {
+function ContactPage() {
   return (
-    <>
-      <Header />
-      <Contact />
-      <Footer />
-    </>
+    <div className="min-h-screen bg-white flex items-center justify-center">
+      <h1 className="text-6xl font-bold text-black">
+        Contact Page
+      </h1>
+    </div>
   );
-};
+}
 
 export default ContactPage;
